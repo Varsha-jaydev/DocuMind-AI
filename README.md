@@ -1,4 +1,5 @@
-# DocuMind-AI
+# 🤖 DocuMind AI - Local RAG Documentation Assistant
+
 DocuMind AI is a local Retrieval-Augmented Generation (RAG) chatbot that allows users to ask questions about Python documentation and receive AI-generated answers with relevant context.
 
 The project uses a complete RAG pipeline:
@@ -20,3 +21,48 @@ The project uses a complete RAG pipeline:
 - ⚡ FastAPI backend API
 - 🌐 Simple web frontend
 - 🔒 Runs completely locally (no paid APIs)
+
+## 🏗️ Architecture
+
+Python Documentation (HTML)
+|
+↓
+Document Loader
+|
+↓
+Text Splitter
+|
+↓
+Nomic Embedding Model
+|
+↓
+ChromaDB Vector Store
+|
+↓
+Retriever
+|
+↓
+Qwen LLM (Ollama)
+|
+↓
+Structured AI Response
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend
+- Python
+- FastAPI
+- LangChain
+- ChromaDB
+
+### AI
+- Ollama
+- Qwen
+- Nomic Embeddings
+
+### Frontend
+- HTML
+- CSS
+- JavaScript
