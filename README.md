@@ -22,33 +22,6 @@ The project uses a complete RAG pipeline:
 - 🌐 Simple web frontend
 - 🔒 Runs completely locally (no paid APIs)
 
-## 🏗️ Architecture
-
-Python Documentation (HTML)
-|
-↓
-Document Loader
-|
-↓
-Text Splitter
-|
-↓
-Nomic Embedding Model
-|
-↓
-ChromaDB Vector Store
-|
-↓
-Retriever
-|
-↓
-Qwen LLM (Ollama)
-|
-↓
-Structured AI Response
-
----
-
 ## 🛠️ Tech Stack
 
 ### Backend
@@ -66,3 +39,6 @@ Structured AI Response
 - HTML
 - CSS
 - JavaScript
+
+- Demo
+<img width="647" height="945" alt="image" src="https://github.com/user-attachments/assets/7e552fb4-31ef-4744-bc36-af1ea8e20f36" />
